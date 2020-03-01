@@ -1,0 +1,9 @@
+# secrets
+*.tfvars
+
+# Ignore the state. Since this project is a tutorial only and is expected that terraform destroy is executed at the end, we don't want to commit terraform's current state.
+*.tfstate
+*.tfstate.backup
+
+# terraform
+.terraform/
