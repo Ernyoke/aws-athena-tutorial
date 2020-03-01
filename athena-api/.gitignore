@@ -130,5 +130,6 @@ $RECYCLE.BIN/
 
 # SAM build
 .aws-sam/
+*.zip
 
 # End of https://www.gitignore.io/api/osx,node,linux,windows
